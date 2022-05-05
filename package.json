@@ -12,7 +12,7 @@
     "node": ">=14"
   },
   "scripts": {
-    "test": "npx jest"
+    "test": "npx jest --watch"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
   "homepage": "https://github.com/hexlet-boilerplates/nodejs-package#readme",
   "dependencies": {
     "debug": "^4.3.4",
+    "javascript-lp-solver": "^0.4.24",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
@@ -38,6 +39,7 @@
     "jest": "^28.0.3",
     "jest-cli": "^28.0.3",
     "npm-check-updates": "^12.5.11",
+    "prettier": "^2.6.2",
     "simple-git-hooks": "^2.7.0"
   }
 }
